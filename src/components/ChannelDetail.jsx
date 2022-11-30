@@ -1,10 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Box, ClickAwayListener } from '@mui/material';
+import { Box } from '@mui/material';
 
 import { Videos, ChannelCard } from './';
 import { fetchFromAPI } from '../utils/fetchFromAPI';
-import zIndex from '@mui/material/styles/zIndex';
 
 const ChannelDetail =() => {
 
